@@ -20,7 +20,7 @@ public class Square {
     public String toString() {
         String str = "Square{" +
                 "sides=" + sides +
-                ", label='" + sides + '\'' +
+                ", label='" + label + '\'' +
                 '}';
         return str;
     }
