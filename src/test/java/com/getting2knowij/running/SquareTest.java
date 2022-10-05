@@ -1,16 +1,15 @@
 package com.getting2knowij.running;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SquareTest {
     @Test
-    void shouldBeAbleToSetAndReadALabelForTheSquare() {
+    void shouldBeAbleToSetALabelForASquare() {
         Square square = new Square("Square for testing");
 
-        Assertions.assertEquals("Square for testing", square.getLabel());
+        assertEquals("Square for testing", square.getLabel());
     }
 
     @Test
